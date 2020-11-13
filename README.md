@@ -1,5 +1,5 @@
 # pyCypher
-<h3>a simple Caesar Cipher encoder/decoder.</h3><br>
+<h3>a simple <a href="https://en.wikipedia.org/wiki/Caesar_cipher">Caesar Cipher</a> encoder/decoder.</h3><br>
 finished on the 13th Nov 2020 <br>
 made with Python3 <br>
 executable made with <a href="http://www.pyinstaller.org/">pyinstaller</a>
