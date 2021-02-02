@@ -17,6 +17,7 @@ executable made with <a href="http://www.pyinstaller.org/">pyinstaller</a>
 <ul>
 <li>enter e to encode message.</li>
 <li>enter d to decode message.</li>
+<li>enter b to brute force message.</li>
 <li>enter a to view the about page.</li>
 <li>enter q to quit the program.</li>
 </ul>
@@ -28,6 +29,8 @@ executable made with <a href="http://www.pyinstaller.org/">pyinstaller</a>
 </ol>
 
 <h1>Screenshots</h1>
+<h6>*old screenshots without brute force feature because i'm to lazy to screenshot the updated one.</h6>
+
 <h6>pyCypher main screen</h6>
 <img src="https://github.com/CaptKraken/pyCypher/blob/master/img/pyCypher%20main%20screen.jpg?raw=true" width="75%"></img>
 <h6>pyCypher encode process</h6>
