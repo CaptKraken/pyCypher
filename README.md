@@ -7,6 +7,7 @@ executable made with <a href="http://www.pyinstaller.org/">pyinstaller</a>
 <h1>Features</h1>
 <ul>
 <li>encode/decode messages using Caesar Cipher encryption technique.</li>
+<li>brute force messages without knowing the shift number</li>
 <li>characters from a-z</li>
 <li>multi-line message</li>
 </ul>
