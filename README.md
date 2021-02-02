@@ -27,6 +27,7 @@ executable made with <a href="http://www.pyinstaller.org/">pyinstaller</a>
 <li>enter shift number</li>
 <li>press enter to get the en/decoded message.</li>
 </ol>
+<h3>to brute force a message, you only need to enter the message then find the one that is readable.</h3>
 
 <h1>Screenshots</h1>
 <h6>*old screenshots without brute force feature because i'm to lazy to screenshot the updated one.</h6>
