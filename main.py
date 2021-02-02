@@ -39,6 +39,21 @@ def end():
 enter \'y\' or \'n\' only.''')
         end()
 
+#brute force
+def bf():
+    msg = input('type your message:\n>>> ').lower()
+    for x in range(1, 26):
+        new_msg = ''
+        for letter in msg:
+            if letter not in dict:
+                new_msg += letter
+            else:
+                position = dict.index(letter)
+                numpos = position - x
+                new_msg += dict[numpos]
+        print(f'{breaker}\nfor shift num {x}, the message is ▼\n{new_msg}')
+    end()
+
 
 # inputing
 def cont():
@@ -67,6 +82,9 @@ while state:
     elif opt == 'd':
         print('► decode')
         cont()
+    elif opt == 'b':
+        print('► brute force')
+        bf()
     elif opt == 'a':
         print(
             f'''{story}\n   In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher,
